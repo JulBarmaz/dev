@@ -1,0 +1,32 @@
+@CHARSET "UTF-8";
+/************************/
+.cabinet-menu {
+	margin-bottom: 10px;
+}
+.cabinet-menu ul.dot li{
+	margin: 5px 0;
+}
+#site_header .cabinet_menu{
+	text-align:right;
+	margin:0;
+}
+#site_header .cabinet_menu li{
+	display:inline-block;
+	margin: 0 0 0 15px;
+}
+#site_header .cabinet_menu li a {
+	color:#FFFFFF;
+}
+
+@media (max-width: 767px) {
+	#site_header .cabinet_menu li{
+		margin: 0 0 0 15px;
+	}
+	#site_header .cabinet_menu li a {
+		height: 50px;
+		color:#FFFFFF;
+	}
+	#site_header .cabinet_menu li a span{
+		display:none;
+	}
+}

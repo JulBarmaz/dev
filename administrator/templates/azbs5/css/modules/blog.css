@@ -1,0 +1,54 @@
+@CHARSET "UTF-8";
+.acl-manager .row{
+	margin-bottom:15px;
+}
+.acl-manager .row input[type="text"]{
+	width:100%;
+}
+.acl-manager .row label{
+	cursor: pointer;
+}
+.br_map-wrapper{
+	overflow-x:auto;
+}
+table.br_map{
+
+}
+table.br_map tr.subheader td.br_title {
+	text-align: center;
+}
+table.br_map tr.header td {
+	text-align: center;
+}
+table.br_map td.br_action {
+	text-align: center;
+	vertical-align: center;
+}
+td.deleted {
+	color:red;
+	text-decoration: line-through;
+}
+tr.rules:hover {
+	background: #F5F5F5;
+}
+tr.rules:hover td.br_title {
+	background: #F5F5F5 !important;
+}
+img.enabled_0{
+	width:20px;
+	height:20px;
+	background:url(/administrator/templates/azbs5/images/flag_red.gif) no-repeat center center;
+	cursor:pointer;
+}
+img.enabled_1{
+	width:20px;
+	height:20px;
+	background:url(/administrator/templates/azbs5/images/flag_green.gif) no-repeat center center;
+	cursor:pointer;
+}
+img.enabled_2{
+	width:20px;
+	height:20px;
+	background:url(/administrator/templates/azbs5/images/flag_yellow.gif) no-repeat center center;
+	cursor:pointer;
+}

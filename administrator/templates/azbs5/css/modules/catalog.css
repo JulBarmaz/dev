@@ -1,0 +1,224 @@
+@CHARSET "UTF-8";
+@import url("/css/modules/catalog.css");
+.catalog-manager .row{
+	margin-bottom:15px;
+}
+.catalog-manager .row.buttons{
+	margin-bottom:0;
+}
+.catalog-manager input[type=text], 
+.catalog-manager input[type=password], 
+.catalog-manager input[type=phone], 
+.catalog-manager input[type=email], 
+.catalog-manager textarea, 
+#modify-wrapper select{
+	width:100%;
+}
+.catalog-manager .buttons .btn,
+.catalog-manager .buttons input{
+	margin-right: 15px;
+	margin-top: 5px;
+}
+.catalog-manager.catalog-exchange1c #message_list{
+	padding-bottom:10px;
+}
+.catalog-manager.catalog-exchange1c #message_list .row{
+	margin-bottom:0;
+}
+div.tab_body h3.title{
+	color: #2D67A9;
+	font-weight: normal;
+	padding: 0 5px;
+	text-transform: uppercase;
+}
+div.spanpool{
+	height: 18px;
+	display: block;
+	width: 100%;
+}
+div.str_pool{
+	float:left;
+	padding: 0 5px;
+	width:85%;
+}
+div.modify-label h4{
+	margin:0;
+	padding:0;
+	text-align:center;
+}
+p.adtl_img_link{
+	text-align:right;
+	padding:0 5px 0 0;
+	margin: 5px 0 15px;
+}
+ul#export_ggr{
+	padding:0;
+	margin:0;
+}
+ul#export_ggr ul{
+	padding:0 0 0 15px;
+	margin:0;
+}
+ul#export_ggr li{
+	padding:0;
+	margin:0;
+	list-style:none;
+}
+ul#export_ggr li a{
+	padding:4px 0;
+	line-height:1em;
+	display: block;
+	width:100%;
+}
+ul#export_ggr li a span{
+	margin:	0 0 0 15px;
+}
+ul#export_ggr li a.opened{
+		background: url("/administrator/templates/azbs5/images/list-opened.png") no-repeat left center transparent;
+}
+ul#export_ggr li a.closed{
+		background: url("/administrator/templates/azbs5/images/list-closed.png") no-repeat left center transparent;
+}
+#codepageSelectBoxItContainer{
+	width:150px;
+}
+/***************************************************/
+/****************** options tab ********************/
+/***************************************************/
+#add_option_wrapper .buttons{
+	margin-top:15px;
+}
+div#goods_options fieldset a.delete_option_button{
+	background: url("/administrator/templates/azbs5/images/delete16.png") no-repeat left center transparent;
+	width:16px;
+	height:16px;
+	display:block;
+	float:right;
+}
+div#goods_options fieldset div.selected_option a.delete_option_button{
+	background: url("/administrator/templates/azbs5/images/delete16.png") no-repeat left center transparent;
+	width:16px;
+	height:16px;
+	display:block;
+	position:absolute;
+	left:0;
+	top:0;
+}
+
+div#goods_options fieldset a.add_option_button{
+	background: url("/administrator/templates/azbs5/images/plus.png") no-repeat left center transparent;
+	width:16px;
+	height:16px;
+	display:block;
+	position:absolute;
+	right:5px;
+	top:17px;
+}
+div#goods_options fieldset legend{
+	color:#2D67A9;
+}
+div#goods_options div.template_option,
+div#goods_options div.selected_option{
+	background:#CCCCCC;
+	display: block;
+	float: left;
+	padding: 8px 5px;
+	width:100%;
+}
+div#goods_options div.template_option{
+	padding-right: 24px;
+}
+div#goods_options div.selected_option{
+	background:#DEDEDE;
+	border-bottom:1px solid #FFFFFF;
+}
+div.hidden{
+	display:none;
+}
+div#goods_options div.option_data,
+div#goods_options div.option_data_sign,
+div#goods_options div.data_od_price_sign{
+	width:120px;
+	float:left;
+	min-height: 20px;
+	padding:4px 3px; 
+}
+div#goods_options div.option_data_sign{
+	width:152px;
+	padding-left:46px;
+}
+div#goods_options div.data_od_price_sign{
+	width:44px;
+	padding-left:3px; 
+}
+div#goods_options div.option_data label,
+div#goods_options div.option_data_sign label{
+	width:100%;
+	padding:2px 0;
+	margin:2px 0;
+/*	overflow:hidden; */
+	font-weight: bold;
+	text-align:center;
+	display:block;
+	font-size:90%; 
+}
+div#goods_options div.option_data select,
+div#goods_options div.option_data_sign select{
+	width:38px;
+/*	float:left;*/
+	display:inline-block;
+	padding:2px;
+	position:absolute;
+	left:3px;
+	bottom:4px;
+}
+div#goods_options div.option_data_sign.data_od_price_sign select{
+	position:relative;
+	left:auto;
+	bottom:auto;
+}
+div#goods_options div.option_data input,
+div#goods_options div.option_data_sign input{
+	width:100%;
+	/*float:left;*/
+	display:inline-block;
+/*	font-size:90%;*/
+}
+div#goods_options div.option_data.data_od_val_id{
+	width:100%;
+	padding:0 3px; 
+}
+div#goods_options div.option_data.data_od_val_id span.fake_label{
+	font-weight:bold;
+	padding:0 0 0 20px;
+	text-decoration:underline;
+	font-size:100%; 
+	color:#2D67A9;
+}
+/*
+div#goods_options div.option_data.data_od_val_id select{
+	width:434px;
+}
+*/
+/***************************************************/
+/************** space customisation ****************/
+/***************************************************/
+div.data_od_val_id .selectboxit-container span,
+div.data_od_val_id .selectboxit-container .selectboxit-options a,
+div.option_data_sign .selectboxit-container span, 
+div.option_data_sign .selectboxit-container .selectboxit-options a{
+	line-height:20px;
+	height:20px;
+	font-size:10px;
+}
+div.option_data_sign .selectboxit-container{
+	width:36px;
+}
+div.data_od_val_id .selectboxit .selectboxit-option-icon-container,
+div.option_data_sign .selectboxit .selectboxit-option-icon-container{
+	margin:2px;
+}
+div.data_od_val_id .selectboxit .selectboxit-arrow-container .selectboxit-arrow.ui-icon,
+div.option_data_sign .selectboxit .selectboxit-arrow-container .selectboxit-arrow.ui-icon {
+	top:2px;
+}
