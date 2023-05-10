@@ -1,0 +1,76 @@
+@CHARSET "UTF-8";
+body {
+	font-size:12px;
+}
+div#outer_wrapper {
+	width: 100%;
+	margin: 0 auto;
+	text-align:left;
+}
+div#content{
+	width:100%;
+	margin:0 auto;
+	padding:20px;
+}
+div#error_header{
+	width: 100%;
+	text-align:center;
+}
+
+div#sitetitle {
+	text-align:left;
+	color: #FFFFFF;
+	text-shadow: 2px 2px 0 #0A0185;
+	text-transform: uppercase;
+	font-size: 16px;
+	line-height: 68px;
+	font-weight:bold;
+}
+div#sitelogo{
+	background: url("/templates/html5/images/logo.png") no-repeat scroll center center transparent; 
+}
+
+
+div#header {
+	background:url("/templates/html5/images/header.png") repeat scroll center bottom transparent;
+	min-height:68px;
+	margin: 0 auto;
+/*  padding-top: 9px;*/
+	width: 100%;
+	position: relative;
+}
+div#disabledMessage {
+	text-align:center;
+	font-size: 28px;
+}
+div#disabledMessageSmall {
+	text-align:center;
+	font-size: 20px;
+}
+div#footer {
+	clear: both;
+	background:url("/templates/html5/images/header.png") repeat-x scroll center bottom transparent;
+	color: #FFFFFF;
+	font-size: 90% !important;
+	margin: -65px 0 0;
+	overflow: hidden;
+	width:100%;
+	padding:10px 1% 8px;
+	height: 65px;
+}
+div#copyright {
+
+}
+div#copyright a {
+	color: #FFFFFF;
+}
+div#copyrightText {
+	line-height: 65px;
+	font-size:13px;
+	text-align:center;
+}
+#loginForm{
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px #CCC;
+	padding: 15px 0 0;
+}

@@ -1,0 +1,272 @@
+****************************************************************************
+* KCAPTCHA
+* KCAPTCHA is a free software. You can freely use it for building own site or software.
+****************************************************************************
+* reCAPTCHA
+* Permission is hereby granted, free of charge, to any person obtaining a copy
+* of this software and associated documentation files (the "Software"), to deal
+* in the Software without restriction, including without limitation the rights
+* to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+* copies of the Software, and to permit persons to whom the Software is
+* furnished to do so, subject to the following conditions:
+* 
+* The above copyright notice and this permission notice shall be included in
+* all copies or substantial portions of the Software
+****************************************************************************
+* Bootstrap is released under the MIT license and is copyright 2015 Twitter. Boiled down to smaller chunks, it can be described with the following conditions.
+* 
+* It requires you to:
+* Keep the license and copyright notice included in Bootstrap's CSS and JavaScript files when you use them in your works
+* 
+* It permits you to:
+* Freely download and use Bootstrap, in whole or in part, for personal, private, company internal, or commercial purposes
+* Use Bootstrap in packages or distributions that you create
+* Modify the source code
+* Grant a sublicense to modify and distribute Bootstrap to third parties not included in the license
+* 
+* It forbids you to:
+* Hold the authors and license owners liable for damages as Bootstrap is provided without warranty
+* Hold the creators or copyright holders of Bootstrap liable
+* Redistribute any piece of Bootstrap without proper attribution
+* Use any marks owned by Twitter in any way that might state or imply that Twitter endorses your distribution
+* Use any marks owned by Twitter in any way that might state or imply that you created the Twitter software in question
+* 
+* It does not require you to:
+* Include the source of Bootstrap itself, or of any modifications you may have made to it, in any redistribution you may assemble that includes it
+* Submit changes that you make to Bootstrap back to the Bootstrap project (though such feedback is encouraged)
+****************************************************************************
+* uflvplayer 
+* http://flv-mp3.com/ru/
+****************************************************************************
+* FancyBox-M is a modified version of FancyBox 1.3.4
+* Version: 1.3.42 (16.11.2018)
+* Modified by Radius17 https://github.com/Radius17/Fancybox-M
+* This modified version is licensed under MIT license.
+*   http://www.opensource.org/licenses/mit-license.php
+* =====================================================
+* ORIGINAL FANCYBOX is a jQuery Plugin
+* Simple and fancy lightbox alternative
+* Examples and documentation at: http://fancybox.net
+* Copyright (c) 2008 - 2010 Janis Skarnelis
+* That said, it is hardly a one-person project. Many people have submitted bugs, code, and offered their advice freely.
+* Their support is greatly appreciated.
+* Requires: jQuery v1.3+
+*
+* Dual licensed under the MIT and GPL licenses:
+*   http://www.opensource.org/licenses/mit-license.php
+*   http://www.gnu.org/licenses/gpl.html
+****************************************************************************
+* jQuery JavaScript Library v1.4.3
+* http://jquery.com/
+* Dual licensed under the MIT or GPL Version 2 licenses.
+* http://jquery.org/license
+****************************************************************************
+* jQuery v1.9.1 | (c) 2005, 2012 jQuery Foundation, Inc. | jquery.org/license
+* MIT license.
+* http://jquery.org/license
+****************************************************************************
+* jQuery Migrate - v1.4.1 - 2016-05-19
+* Copyright jQuery Foundation and other contributors
+* http://jquery.org/license
+****************************************************************************
+* jQuery UI - v1.11.4 - 2015-06-07
+* http://jqueryui.com
+* Copyright 2015 jQuery Foundation and other contributors; 
+* Licensed MIT
+****************************************************************************
+* jQuery Cookie Plugin v1.4.1
+* https://github.com/carhartl/jquery-cookie
+* Copyright 2013 Klaus Hartl
+* Released under the MIT license
+****************************************************************************
+* Treeview 1.5pre - jQuery plugin to hide and show branches of a tree
+* http://bassistance.de/jquery-plugins/jquery-plugin-treeview/
+* http://docs.jquery.com/Plugins/Treeview
+* Copyright 2010 Jorn Zaefferer
+* Released under the MIT license:
+*   http://www.opensource.org/licenses/mit-license.php
+*****************************************************************************
+* jQuery validation plug-in 1.7
+* http://bassistance.de/jquery-plugins/jquery-plugin-validation/
+* http://docs.jquery.com/Plugins/Validation
+* Dual licensed under the MIT and GPL licenses:
+*   http://www.opensource.org/licenses/mit-license.php
+*   http://www.gnu.org/licenses/gpl.html
+****************************************************************************
+* CKEditor - The text editor for Internet - http://ckeditor.com
+* Copyright (c) 2003-2010, CKSource - Frederico Knabben. All rights reserved.
+* - GNU General Public License Version 2 or later (the "GPL")
+*   http://www.gnu.org/licenses/gpl.html   (See Appendix A)
+* - GNU Lesser General Public License Version 2.1 or later (the "LGPL")   
+*   http://www.gnu.org/licenses/lgpl.html  (See Appendix B)
+* - Mozilla Public License Version 1.1 or later (the "MPL")
+*   http://www.mozilla.org/MPL/MPL-1.1.html  (See Appendix C)
+****************************************************************************
+* bbcode - http://www.usualblog.ru/1-jquery-bbcode-editor.html
+****************************************************************************
+* flatpickr v 4
+* https://flatpickr.js.org
+* Licensed MIT 
+****************************************************************************
+* jquery.numeric 1.4.1 
+* Copyright (c) 2006-2014 Sam Collett (http://www.texotela.co.uk)
+* Dual licensed under the MIT (http://www.opensource.org/licenses/mit-license.php)
+* and GPL (http://www.opensource.org/licenses/gpl-license.php) licenses.
+ ****************************************************************************
+* HTML5 Shiv 3.7.3 | @afarkas @jdalton @jon_neal @rem | MIT/GPL2 Licensed 
+****************************************************************************
+* jQuery UI 1.8.13
+* Copyright 2011, AUTHORS.txt (http://jqueryui.com/about)
+* Dual licensed under the MIT or GPL Version 2 licenses.
+* http://jquery.org/license
+* http://docs.jquery.com/UI
+****************************************************************************
+* Validatr
+* https://github.com/morrowj/validatr
+* Copyright (c) 2013 Jay Morrow
+* Licensed under the MIT license.
+****************************************************************************
+* jQuery Form Plugin
+* version: 3.32.0-2013.04.09
+* @requires jQuery v1.5 or later
+* Copyright (c) 2013 M. Alsup
+* Examples and documentation at: http://malsup.com/jquery/form/
+* Project repository: https://github.com/malsup/form
+* Dual licensed under the MIT and GPL licenses.
+* https://github.com/malsup/form#copyright-and-license
+****************************************************************************
+* Icons and graphic
+****************************************************************************
+* Spinner 
+* https://loading.io/
+* Released under CC0 License / free use for any purpose
+****************************************************************************
+* IconPack by Sarandon (sarandon@yandex.ru)
+* Format: raster icons 
+* License: Free for commercial use
+* http://sitingstudio.ru
+****************************************************************************
+* 2018 Social media app logos
+* Designer: Anton Drukarov (https://www.iconfinder.com/Indygo)
+* License: Free for commercial use
+* https://www.iconfinder.com/iconsets/2018-social-media-app-logos
+****************************************************************************
+* Free Business Desktop Icons
+* by Aha-Soft , 10 icons total, Format: raster icons 
+* License: Free for commercial use (read me)
+* http://www.iconfinder.com/search/?q=iconset%3Afree-business-desktop-icons#
+****************************************************************************
+* Dellipack
+* by Dellustrations , 19 icons total, Format: raster icons 
+* License: Free for commercial use
+* http://dellustrations.com/work_icons.html
+****************************************************************************
+* Fliraneo
+* by Artdesigner.lv , 6 icons total, Format: raster icons 
+* License: Free for commercial use
+* http://www.artdesigner.lv/
+****************************************************************************
+* I like buttons
+* by MazeNL77 , 26 icons total, Format: raster icons 
+* License: Free for commercial use
+* http://mazenl77.deviantart.com/
+****************************************************************************
+* DRF
+* by Jonas Rask , 97 icons total, Format: raster icons 
+* License: Free for commercial use (read me)
+* J O N A S R A S K D ES I G N
+* http://jonasraskdesign.com
+* jonasrask@gmail.com
+****************************************************************************
+* Icons Unleashed Vol. 1 - Computer Hardware
+* by PC Unleashed , 12 icons total, Format: raster icons 
+* License: Free for commercial use (read me)
+* http://pcunleashed.com/
+****************************************************************************
+* Media Icon set
+* by Bevelandemboss.net , 10 icons total, Format: raster icons 
+* License: Free for commercial use (read me)
+* http://bevelandemboss.net/
+****************************************************************************
+* Special thanks to Scott Reynen (http://randomchaos.com/) for UTF-8 to Unicode text transform idea.
+****************************************************************************
+* jquery.selectBoxIt - v3.8.1 - 2013-10-17
+* http://www.selectboxit.com
+* Copyright (c) 2013 Greg Franko; Licensed MIT*/ 
+****************************************************************************
+* jquery.ie.cors.js
+* http://api.brain-map.org/examples/doc/sunburst/javascripts/jquery.ie.cors.js.html
+*
+* Copyright 2013 Allen Institute for Brain Science Licensed under the Apache License, Version 2.0 (the “License”); 
+* You may not use this file except in compliance with the License. 
+* You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0
+* Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an “AS IS” BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+* See the License for the specific language governing permissions and limitations under the License.
+* Internet Explorer 8 implements cross-origin resource sharing using the non-standard XDomainRequest. 
+* This function checks to see if XDomainRequest exists (if you are using IE >= 8), and if so registers a cross-domain request handler that uses it.
+****************************************************************************
+* jquery.matchHeight.js master
+* http://brm.io/jquery-match-height/
+* License: MIT
+****************************************************************************
+* Video.js 7.6.5 <http://videojs.com/>
+* Copyright Brightcove, Inc. <https://www.brightcove.com/>
+* Available under Apache License Version 2.0
+* <https://github.com/videojs/video.js/blob/master/LICENSE>
+*
+* Includes vtt.js <https://github.com/mozilla/vtt.js>
+* Available under Apache License Version 2.0
+* <https://github.com/mozilla/vtt.js/blob/master/LICENSE>
+****************************************************************************
+* YouTube Playback Technology for Video.JS <https://github.com/videojs/videojs-youtube>
+* The MIT License (MIT)
+* Copyright (c) 2014-2015 Benoit Tremblay <trembl.ben@gmail.com>
+****************************************************************************
+* Respond.js: min/max-width media query polyfill. (c) Scott Jehl. 
+* MIT Lic. j.mp/respondjs
+****************************************************************************
+* jQuery Masked Input Plugin
+* Copyright (c) 2007 - 2015 Josh Bush (digitalbush.com)
+* Licensed under the MIT license (http://digitalbush.com/projects/masked-input-plugin/#license)
+* Version: 1.4.1
+****************************************************************************
+* jQuery Info Balloon 1.0
+* http://BARMAZ.ru/
+* Copyright (c) 2011 BARMAZ Group
+* Dual licensed under the MIT and GPL licenses.
+* 
+* Based on jQuery Hoverbox 1.0
+* http://koteako.com/hoverbox/
+* Copyright (c) 2009 Eugeniy Kalinin
+* Dual licensed under the MIT and GPL licenses.
+* http://koteako.com/hoverbox/license/  
+****************************************************************************
+* jQuery.NiceFileInput.js
+* Nice File Input - jQuery plugin which makes file inputs CSS styling an easy task.
+* By Jorge Moreno - @alterebro 
+* 
+* Licensed under the MIT license: http://www.opensource.org/licenses/mit-license.php
+* Based on previous work of:
+* - Shaun Inman (concept) http://www.shauninman.com/archive/2007/09/10/styling_file_inputs_with_css_and_the_dom
+* - Mika Tuupola (jQuery plugin implementation) http://www.appelsiini.net/projects/filestyle 
+****************************************************************************
+* Bootstrap Carousel Swipe v1.1
+*
+* jQuery plugin to enable swipe gestures on Bootstrap 3 carousels.
+* Examples and documentation: https://github.com/maaaaark/bcSwipe
+*
+* Licensed under the MIT license.
+****************************************************************************
+* XXTEA encryption arithmetic library.
+* Copyright (C) 2006 Ma Bingyao <andot@ujn.edu.cn>
+* Version:      1.5
+* LastModified: Dec 5, 2006
+* This library is free.  You can redistribute it and/or modify it.
+****************************************************************************
+* Demo images for catalog
+* Collages from Pixabay images
+* https://pixabay.com/service/terms/#license
+****************************************************************************
+* Demo images for catalog
+* Screens from different Linux OS
+****************************************************************************
