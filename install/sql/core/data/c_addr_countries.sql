@@ -1,0 +1,15 @@
+INSERT INTO `#__addr_countries`(`c_id`,`c_name`,`c_alpha_2`,`c_alpha_3`,`c_descr`,`c_ordering`,`c_enabled`,`c_deleted`) VALUES('804','Украина','UA','UKR','','4','1','0')###qb_delimiter###
+INSERT INTO `#__addr_countries`(`c_id`,`c_name`,`c_alpha_2`,`c_alpha_3`,`c_descr`,`c_ordering`,`c_enabled`,`c_deleted`) VALUES('860','Узбекистан','UZ','UZB','Республика Узбекистан','11','0','0')###qb_delimiter###
+INSERT INTO `#__addr_countries`(`c_id`,`c_name`,`c_alpha_2`,`c_alpha_3`,`c_descr`,`c_ordering`,`c_enabled`,`c_deleted`) VALUES('795','Туркмения','TM','TKM','Туркменистан','10','0','0')###qb_delimiter###
+INSERT INTO `#__addr_countries`(`c_id`,`c_name`,`c_alpha_2`,`c_alpha_3`,`c_descr`,`c_ordering`,`c_enabled`,`c_deleted`) VALUES('762','Таджикистан','TJ','TJK','Республика Таджикистан','9','0','0')###qb_delimiter###
+INSERT INTO `#__addr_countries`(`c_id`,`c_name`,`c_alpha_2`,`c_alpha_3`,`c_descr`,`c_ordering`,`c_enabled`,`c_deleted`) VALUES('498','Молдова','MD','MDA','Республика Молдова','7','0','0')###qb_delimiter###
+INSERT INTO `#__addr_countries`(`c_id`,`c_name`,`c_alpha_2`,`c_alpha_3`,`c_descr`,`c_ordering`,`c_enabled`,`c_deleted`) VALUES('643','Россия','RU','RUS','Российская Федерация','1','1','0')###qb_delimiter###
+INSERT INTO `#__addr_countries`(`c_id`,`c_name`,`c_alpha_2`,`c_alpha_3`,`c_descr`,`c_ordering`,`c_enabled`,`c_deleted`) VALUES('440','Литва','LT','LTU','Литовская Республика','13','0','0')###qb_delimiter###
+INSERT INTO `#__addr_countries`(`c_id`,`c_name`,`c_alpha_2`,`c_alpha_3`,`c_descr`,`c_ordering`,`c_enabled`,`c_deleted`) VALUES('428','Латвия','LV','LVA','Латвийская Республика','14','0','0')###qb_delimiter###
+INSERT INTO `#__addr_countries`(`c_id`,`c_name`,`c_alpha_2`,`c_alpha_3`,`c_descr`,`c_ordering`,`c_enabled`,`c_deleted`) VALUES('417','Киргизия','KG','KGZ','Киргизская Республика','8','0','0')###qb_delimiter###
+INSERT INTO `#__addr_countries`(`c_id`,`c_name`,`c_alpha_2`,`c_alpha_3`,`c_descr`,`c_ordering`,`c_enabled`,`c_deleted`) VALUES('268','Грузия','GE','GEO','','12','0','0')###qb_delimiter###
+INSERT INTO `#__addr_countries`(`c_id`,`c_name`,`c_alpha_2`,`c_alpha_3`,`c_descr`,`c_ordering`,`c_enabled`,`c_deleted`) VALUES('398','Казахстан','KZ','KAZ','Республика Казахстан','3','1','0')###qb_delimiter###
+INSERT INTO `#__addr_countries`(`c_id`,`c_name`,`c_alpha_2`,`c_alpha_3`,`c_descr`,`c_ordering`,`c_enabled`,`c_deleted`) VALUES('112','Беларусь','BY','BLR','Республика Беларусь','2','1','0')###qb_delimiter###
+INSERT INTO `#__addr_countries`(`c_id`,`c_name`,`c_alpha_2`,`c_alpha_3`,`c_descr`,`c_ordering`,`c_enabled`,`c_deleted`) VALUES('233','Эстония','EE','EST','Эстонская Республика','15','0','0')###qb_delimiter###
+INSERT INTO `#__addr_countries`(`c_id`,`c_name`,`c_alpha_2`,`c_alpha_3`,`c_descr`,`c_ordering`,`c_enabled`,`c_deleted`) VALUES('51','Армения','AM','ARM','Республика Армения','5','0','0')###qb_delimiter###
+INSERT INTO `#__addr_countries`(`c_id`,`c_name`,`c_alpha_2`,`c_alpha_3`,`c_descr`,`c_ordering`,`c_enabled`,`c_deleted`) VALUES('31','Азербайджан','AZ','AZE','Азербайджанская Республика','6','0','0')###qb_delimiter###

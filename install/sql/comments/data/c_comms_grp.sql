@@ -1,0 +1,1 @@
+INSERT INTO `#__comms_grp`(`cg_id`,`cg_title`,`cg_module`,`cg_view`,`cg_tablename`,`cg_list_limit`,`cg_text_limit`,`cg_bbcode`,`cg_premoderate`,`cg_mailmoder`,`cg_vote_obj`,`cg_vote_comms`,`cg_enabled`,`cg_deleted`) VALUES('1','Блоги','blog','post','','0','0','1','0','1','1','1','1','0')###qb_delimiter###

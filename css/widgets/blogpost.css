@@ -1,0 +1,46 @@
+@CHARSET "UTF-8";
+/************************/
+.wblog {
+	position: relative;
+	display:block;
+	margin-bottom: 10px;
+}
+
+.wblog .wbTheme {
+	padding: 0 1%;
+	display:block;
+}
+
+.wblog .wbTheme .post_date{
+	padding: 0 8px 0 0;
+	font-size: 0.9em;
+}
+.wblog .wbText{
+	padding: 10px;
+	display:block;
+	clear:both;
+}
+.wblog .wbText .readmore,
+.w_content .view_archive{
+	text-align: right;
+	margin:0;
+}
+.wblog .wbText .readmore a,
+.w_content .view_archive a{
+	display:inline-block;
+}
+.wblog .wbThumb{
+	float:left;
+	padding: 8px 0 0;
+	position:relative;
+}
+.wblog .wbProp {
+	text-align: right;
+	padding: 0 4px;
+}
+@media (max-width: 468px) {
+	.wblog .wbThumb{
+		margin: 0 auto;
+		display: block;
+	}
+}

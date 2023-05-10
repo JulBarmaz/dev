@@ -1,0 +1,7 @@
+@CHARSET "UTF-8";
+select.commonSelect {	background-color	: #000000;	color				: #FFFFFF;}
+div.commonPopup {	display				: none;	position			: fixed;	background-color	: #494949;}
+/*System message*/
+div#systemMessage {	width: 40%;top: 300px;left: 30%;z-index: 99999;	padding: 7px;border: 2px solid #FEFEFE;}
+div#sysMsgText {	font-size			: 14px;}
+div#sysMsgButton {padding-top			: 10px;	text-align			: right;}

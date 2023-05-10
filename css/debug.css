@@ -1,0 +1,66 @@
+@CHARSET "UTF-8";
+* {
+    box-sizing: border-box;
+}
+#debugger {
+	padding: 0 15px 15px;
+	display:block;
+	width:100%;
+	background: #FFFFFF !important;
+	color: #000000 !important;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:12px;
+	line-height:1.2;
+	font-style:normal;
+}
+#debugger table td {
+	font-size:12px;
+}
+
+div#dbg div.debug{
+	/* clear:both; */
+	overflow-x:scroll;
+	border:1px solid;
+	margin-top:10px;
+	padding: 0 10px 10px;
+	text-align:left !important;
+	display:block;
+	width:100%;
+	font-size:12px;
+}
+div#dbg div.debug .debug-error {
+	font-size:12px;
+	text-decoration:none;
+	font-weight:bold;
+	color:red;
+}
+div#dbg div.debug .debug-warning {
+	font-size:12px;
+	text-decoration:none;
+	font-weight:bold;
+	color:darkMagenta;
+}
+div#dbg div.debug span.debug-milestone, 
+div#dbg div.debug span.debug-error,
+div#dbg div.debug span.debug-warning {
+	font-size:12px;
+	font-weight:bold;
+	text-decoration:underline;
+}
+div#dbg div.debug .debug-sql-sprav {
+	font-size:12px;
+	text-decoration:underline;
+	font-weight:bold;
+	color:Blue;
+}
+div#dbg pre {
+	white-space:normal;
+}
+div.arr_dbg,
+div.arr_dbg_head{
+	clear:both;
+	display:block;
+}
+div.arr_dbg legend{
+	cursor:pointer;
+}

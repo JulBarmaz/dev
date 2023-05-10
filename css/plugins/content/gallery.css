@@ -1,0 +1,35 @@
+div.content_gallery{
+	display: block;
+}
+div.content_gallery_image{
+	vertical-align: middle;
+	margin: 0 0 15px;
+	padding: 0;
+	text-align: center;
+}
+.content_gallery_image_link,
+.content_gallery_thumb_link,
+.content_gallery_image_link .content_gallery_image_wrapper,
+.content_gallery_thumb_link .content_gallery_thumb_wrapper,
+.content_gallery_image_link .content_gallery_title,
+.content_gallery_thumb_link .content_gallery_title{
+	display: block;
+	vertical-align: middle;
+	width:100%;
+	text-align: center;
+}
+.content_gallery_image_link,
+.content_gallery_thumb_link{
+	border: 1px solid #EEEEEE;
+	padding: 5px;
+}
+.content_gallery_image_link:hover,
+.content_gallery_thumb_link:hover{
+	box-shadow: 0 0 4px #CCCCCC;
+}
+.content_gallery_image_link .content_gallery_image_wrapper,
+.content_gallery_thumb_link .content_gallery_thumb_wrapper{
+}
+.content_gallery_image_link .content_gallery_title,
+.content_gallery_thumb_link .content_gallery_title{
+}

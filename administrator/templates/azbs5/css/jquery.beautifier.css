@@ -1,0 +1,35 @@
+@CHARSET "UTF-8";
+.CheckBoxClass,.RadioClass{
+	display: block;  
+	margin: 0 0 0 -10000px !important;
+	position:absolute;
+	width:0px;
+	height:0px;
+	border:0px;
+	padding: 0px;
+}
+.CheckBoxLabelClass{
+	background: url("/administrator/templates/azbs5/images/checkbox.png") no-repeat 0 -24px;
+	margin: 0px !important;
+	padding: 0px;
+	height: 24px; 
+	width: 24px;
+	display:inline-block;
+	cursor:pointer;
+}
+.CheckboxChecked{
+	background: url("/administrator/templates/azbs5/images/checkbox.png") no-repeat 0 0;
+}
+.RadioLabelClass{
+	background: url("/administrator/templates/azbs5/images/radiobutton.png") no-repeat 0 -24px;
+	margin: 0px !important;
+	padding: 0px;
+	height: 24px; 
+	width: 24px;
+	display: inline-block; 
+	float: left;
+	cursor:pointer;
+}
+.RadioSelected{
+	background: url("/administrator/templates/azbs5/images/radiobutton.png") no-repeat 0 0;
+}

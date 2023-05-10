@@ -1,0 +1,52 @@
+@CHARSET "UTF-8";
+.hidden_field{
+	color:#999999;
+}
+.conf-manager .row{
+	margin-bottom:15px;
+}
+.visible_all.row label{
+	cursor: pointer;
+	font-weight: bold;
+	line-height: 125%;
+}
+#visible_except_p.row label,
+#widgetVisibility .row label.aw_visible,
+#widgetAccess .row label,
+#itemAccess .row label{
+	cursor: pointer;
+}
+ul.sitemap-selector {
+	margin: 0 auto;
+	padding: 0px;
+}
+ul.sitemap-selector li{
+	padding: 10px;
+	list-style:none;
+	text-align:center;
+}
+div.show-config-pass{
+	position: absolute;
+	cursor:pointer;
+	right:10px;
+	top:5px;
+}
+div.show-config-pass  .CheckBoxLabelClass{
+	background: none !important;
+}
+div.show-config-pass  .CheckBoxLabelClass::before {
+	content: "\e105";
+	position: relative;
+	top: 1px;
+	display: inline-block;
+	font-family: 'Glyphicons Halflings';
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1;
+	font-size: 20px;
+	color:#AAAAAA;
+}
+div.show-config-pass  .CheckBoxLabelClass.CheckboxChecked::before {
+	content: "\e106";
+	color:#000000;
+}

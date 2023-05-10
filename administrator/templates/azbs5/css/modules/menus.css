@@ -1,0 +1,15 @@
+@CHARSET "UTF-8";
+#itemAccess .row{
+	margin-bottom:15px;
+}
+#itemAccess .row label{
+	cursor:pointer;
+}
+.visible_all.row{
+	margin-bottom:15px;
+}
+.visible_all.row label{
+	cursor:pointer;
+	font-weight:bold;
+	line-height: 125%;
+}
