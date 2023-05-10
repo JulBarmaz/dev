@@ -1,0 +1,622 @@
+html, body, span, applet, object, blockquote, pre, a, abbr, img, small, strike, strong,
+b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  background: transparent;
+}
+html {
+  min-height: 100%;
+  border-bottom: 1px solid transparent;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 1.2;
+  background: #FCFCFC;
+  background: #FFFFFF;
+}
+table {
+	border:0 none;
+	border-collapse:collapse;
+	margin:0 auto;
+	padding:0;
+	text-align:left;
+	width:100%;
+}
+
+ul {
+ list-style: none;
+}
+
+:focus {
+  outline: 0;
+}
+
+.float-fix {
+  height: 1%;
+}
+
+.float-fix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.invalid{
+	color:red;
+}
+/*System message*/
+div#sys_msg{padding :  5px 0; margin: 0 25%; position: absolute; z-index: 9999; width: 50%; background: #F3F2F2; color: #666666; top: 55px; border: double #666666; font-weight: bold; display:none;}
+div.msgl{float: left; width: 88%; padding: 2px 16px 2px 12px;}
+div.msgr{float: right;	width: 2%; text-align: right; padding: 2px 7px; vertical-align:top; }
+div.msgr img{cursor: pointer;}
+#system-message dd ul {
+  color: #0055BB;
+  margin-bottom: 10px;
+  list-style: none;
+  padding: 10px;
+  border-top: 3px solid #84A7DB;
+  border-bottom: 3px solid #84A7DB;
+}
+#system-message dt.notice, #system-message dt.error, #system-message dt.message {
+  display: none;
+}
+#system-debug {
+  color: #CCCCCC;
+  background-color: #FFFFFF;
+  padding: 10px;
+  margin: 10px;
+}
+.invalid {
+  border-color: #ff0000;
+}
+.wrap {
+  width: 100%;
+  clear: both;
+}
+.main {
+  width: 980px;
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+.static {
+  position: static;
+}
+
+a {
+  color: #3E7CAF;
+  text-decoration: none;
+}
+
+a:hover, a:active, a:focus {
+  color: #202020;
+  text-decoration: underline;
+}
+h1,h2,h3,h4{ text-align: center; padding:0; margin:0 0 15px;}
+h1 { font-size: 20px; }
+h2 { font-size: 150%; }
+h3 { font-size: 125%; }
+h4 { font-size: 110%; }
+
+#install-wrapper {
+  padding: 0;
+  margin: 0 auto 20px;
+}
+
+h1.logo {
+  float: left;
+  padding: 0;
+  height: 68px;
+  position: relative;
+  z-index: 101;
+  background: url('/install/images/header.png') repeat-x center top;
+  width: 260px;
+}
+
+h1.logo>a {
+  background: url('/install/images/logo.png') no-repeat center top;
+	display: block;
+  width: 260px;
+  height: 68px;
+  padding: 0;
+  text-align:center;
+  color:#FFFFFF;
+  text-decoration:none;
+  font-family:cursive;
+}
+
+#install-nav-wrap {
+/*  margin-bottom: 10px; */
+}
+
+#install-top-menu a, #install-cart a, #install-tools a, #install-items {
+  color: #999999;
+  line-height: 11px;
+  font-size: 11px;
+}
+
+#install-items {
+  margin-left: 5px;
+}
+
+#install-top-menu a:hover {
+  color: #000000;
+  text-decoration: none;
+}
+
+#install-top-menu li {
+  float: left;
+  padding: 0 12px;
+  border-left: 1px solid #dcdcdc;
+  line-height: 11px;
+}
+
+#install-top-menu li:first-child {
+  padding-left: 0;
+  border-left: none;
+}
+
+#popup_cart {
+  width: 280px;
+}
+
+#install-container {
+  background: #FFFFFF;
+  padding: 10px 0;
+/*  margin: 0 0 10px;*/
+}
+
+#install-footer {
+  background: #ececec url('/install/images/header.png') repeat-x center top;
+	clear: both;
+  overflow: hidden;
+  color: #FFFFFF;
+  font-size: 90%!important;
+  margin: 0;
+  height: 44px;
+  line-height: 44px;
+}
+
+#stylearea {
+  float: right;
+  margin: 0 0 0 20px;
+  width: auto;
+  font-size: 90%!important;
+}
+
+.install-footnav, #install-top-menu, #install-mainnav {
+  float: left;
+  width: auto;
+}
+#install-mainnav {
+  background: #FFFFFF url('/install/images/menu_lvl1_bg.png') repeat-x 0 bottom;
+	height: 68px;
+	width: 100%;
+}
+.install-footnav li {
+  float: left;
+  width: auto;
+  margin: 0 12px 0 0;
+}
+
+th {
+  font-weight: bold;
+  padding: 6px 0;
+  text-align: left;
+}
+
+td {
+  font-size: 100%;
+  padding: 2px;
+}
+
+hr {
+  border-bottom: 0;
+  border-left: 0;
+  border-right: 0;
+  border-top: 1px solid #DDDDDD;
+  height: 1px;
+}
+
+fieldset {
+  border: none;
+  padding: 12px 0;
+}
+
+input, select, textarea, .inputbox {
+  background: #FFFFFF;
+  border: 1px solid #CCCCCC;
+  padding: 2px 5px;
+  color: #666666;
+}
+
+.adminform button, #adminForm button, .button, a.readon,
+input[type="submit"], input[type="button"], a.button_details,
+a.continue_link, a.checkout_link, a.linkButton {
+  background: #E3012D url('/install/images/button.png') repeat-x 0 100%;
+  margin: 0 0 0 4px;
+  cursor: pointer;
+  padding: 15px 19px;
+  text-align: center;
+  font: bold 13px Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  color: #FFFFFF;
+  border: none;
+  display:inline-block;
+}
+.adminform button, #adminForm button {
+  float: left;
+  margin-left: 4px;
+}
+img.caption {
+  margin-top: 5px;
+}
+#install-footer a{
+  color: #FFFFFF;
+}
+div.back_button a, div.back_button a:hover, div.back_button a:active {
+  display: block;
+  margin: 10px 0;
+}
+.adminform button:hover, #adminForm button:hover, .adminform button:focus,
+#adminForm button:focus, .button:hover, .button:focus, a.readon:hover,
+a.readon:active, a.readon:focus, input[type="submit"]:hover, input[type="button"]:hover,
+a:hover.button_details, a:hover.continue_link, a:hover.checkout_link, a:hover.linkButton  {
+  background: #ececec url('/install/images/button-h.png') repeat-x 0 100%;
+  cursor: pointer;
+  color: #444444;
+}
+input.invalid {
+  border: 1px solid #3E7CAF!important;
+  color: #3E7CAF!important;
+}
+label.invalid {
+  color: #3E7CAF!important;
+  font-weight: bold;
+}
+#install-nav {
+  border: 1px solid #DCDCDC;
+  height: 68px;
+  position: relative;
+  margin: 0;
+  z-index: 100;
+}
+#install-nav ul.level0 {
+  background: #FFFFFF url('/install/images/menu_lvl1_bg.png') repeat-x 0 bottom;
+	height: 68px;
+}
+#install-nav ul.level0>li {
+   padding: 0 11px 0 10px;
+   height: 68px;
+   line-height: 68px;
+   margin: 0;
+   background: transparent url('/install/images/menu_lvl1_bullet.png') no-repeat right 0;
+}
+#install-nav ul li#last_li{
+	background:none;
+}
+#install-nav ul.level0>li>a {
+   display: block;
+   font-weight: bold;
+   padding: 0 40px;
+   margin: 0;
+   line-height: 68px;
+   height: 68px;
+   color: #202020;
+}
+#install-nav .install-menu .megacol > ul {
+  padding: 0!important;
+}
+#install-nav .install-menu ul.level1 li.group, input[type=radio], .radio, input[type=checkbox], .checkbox {
+	height: auto!important;
+}
+
+#install-nav .install-menu ul.level1 li.group .group-title {
+	background: #C20025;
+	border: 1px solid #E2002B;
+	padding: 4px 10px;
+	margin: 12px 0 0;
+}
+#install-nav .install-menu ul.level1 li.group .group-title .menu-desc {
+  color: #FFA2B4;
+  line-height: 12px;
+  font-size: 10px;
+}
+#install-nav .install-menu ul.level1 li.group .group-title .menu-title {
+  color: #fff;
+  line-height: 14px;
+  font-weight: bold;
+  cursor:pointer;
+}
+#install-nav .install-menu ul.level1 li.group .group-content>ul {
+  margin: 0!important;
+}
+h1.logo, div.logo-text {
+/*
+	-webkit-border-top-left-radius: 3px;
+	-webkit-border-bottom-left-radius: 3px;
+	-moz-border-radius-topleft: 3px;
+	-moz-border-radius-bottomleft: 3px;
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px;
+*/
+	margin: 0;
+}
+#install-footer .install-copyright {
+	float:right;
+  padding-right: 10px;
+  font-size:11px;
+}
+
+#install-header {
+  background: #FFFFFF;
+  padding: 20px;
+  margin: 0 0 20px;
+	-moz-box-shadow: 0 10px 20px #DFDFDF;
+  -webkit-box-shadow: 0 10px 20px #DFDFDF;
+}
+
+#install-nav ul.level0>li>a:hover, #install-nav ul.level0>li:hover>a,
+#install-nav ul.level0>li.active>a:hover, #install-nav ul.level0>li.active>a {
+	-webkit-border-top-left-radius: 3px;
+	-webkit-border-top-right-radius: 3px;
+	-moz-border-radius-topleft: 3px;
+	-moz-border-radius-topright: 3px;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+}
+
+.buttons input, .form_buttons button,
+input[type="submit"], input[type="button"], 
+#install-subnav ul ul ul, a.button_details, a.continue_link,
+a.checkout_link, a.linkButton, .cat_shop_categories {
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.adminform button, #adminForm button, .button, a.readon {
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	text-shadow: 1px -1px 1px #AD0021;
+}
+
+.adminform button:hover, #adminForm button:hover, .adminform button:focus,
+#adminForm button:focus, .button:hover, .button:focus, a.readon:hover,
+a.readon:active, a.readon:focus, .cat_popup .button, input:hover.addtocart_button,
+ul#cat_product_tabs li:hover, a:hover.button_details, a:hover.continue_link,
+a:hover.checkout_link, .moduletable>h3, .moduletable_menu>h3, .moduletable_text>h3,
+#install-nav ul.level0>li>a, #install-nav ul.level0>li.active>a,
+#install-subnav>div>ul>li>a, #install-container ul.cat_tab_ul-style1 li:hover,
+#install-container ul.cat_tab_ul-style1 li, #install-container ul.cat_tab_ul-style1 li:hover.active {
+  text-shadow: 1px 1px 1px #FFFFFF;
+}
+
+#install-nav .install-menu ul.level1 li.group .group-title {
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+}
+
+ul li {
+  list-style-position: outside;
+}
+
+.install-menu ul.level0 li.mega, a.readon {
+  display: block;
+  float: left;
+}
+
+.install-menu ul.level0>li.mega .has-image {
+  padding: 0 0 0 16px!important;
+  display: block;
+  background-repeat: no-repeat;
+  background-position: left 15px;
+}
+
+.install-menu ul.level0 li.mega span.menu-title, .install-menu ul.level0>li.mega>a.mega span,
+.install-menu ul.level0>li.mega>a.mega, html[xmlns] .float-fix {
+  display: block;
+}
+
+.install-menu ul.level0 li.mega a img {
+  float: left;
+  padding-right: 5px;
+}
+.install-menu .megacol, .install-menu ul.level0,
+.contact-left, #install-mainbody, .left, .button2-left,
+.button2-right, .button2-left div, .button2-right div {
+  float: left;
+}
+#install-mainbody { width: 100%;}
+.install-menu .megacol>ul {
+  padding: 0 0 0 16px;
+}
+
+.contentdescription p,
+#component {
+  margin: 0;
+}
+a.mega span.menu-title {
+  cursor:pointer;
+}
+.install-menu li.active a span {
+	text-decoration:underline;
+}
+.shortcutButton, .commonButton {
+	text-align: center;
+	vertical-align: middle;
+	width: 100px!important;
+}
+div#loginButtons {
+	text-align: center;
+}
+div.moduleShortcuts {
+	padding:5px;
+}
+
+div.moduleShortcuts a{
+	display: inline;
+	display: inline-block;
+}
+
+div.nopad{
+	display: block;
+ 	margin: 0;
+ 	padding: 10px;
+ 	border:1px solid  #CCCCCC;
+ 	border-radius: 15px;
+  -moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+ 	
+}
+#tb1 span.menu-title, #tb2 span.menu-title, #tb3 span.menu-title, #tb4 span.menu-title {
+	cursor:default;
+}
+li:hover a#tb1, li:hover a#tb2, li:hover a#tb3, li:hover a#tb4,
+li:hover a#tb1 span.menu-title, li:hover a#tb2 span.menu-title, li:hover a#tb3 span.menu-title, li:hover a#tb4 span.menu-title {
+	/*color:#202020;*/
+	text-decoration:none;
+}
+.install-menu li.active a span {
+	color:#3E7CAF;
+}
+li.active a#tb1, li.active a#tb2, li.active a#tb3, li.active a#tb4,
+li.active a#tb1 span.menu-title, li.active a#tb2 span.menu-title, li.active a#tb3 span.menu-title, li.active a#tb4 span.menu-title,
+.install-menu ul.level0 li.mega a:hover span.menu-title, .install-menu ul.level0>li.mega>a:hover.mega span{
+	color:#3E7CAF;
+	text-decoration:underline;
+}
+div.nopad div.buttons input[type="submit"]{ 
+	margin: 20px auto 0; 
+	width:220px;
+	font-size: 14px;
+}
+div.nopad div.buttons{
+	text-align:center;
+}	
+table.check_settings td{	
+	font-weight:bold;
+	font-size:14px;
+	padding:5px 0;
+}
+table.check_settings td.check_text{
+	
+}
+span.ok,span.invalid{ 
+	float:right;
+	width: 100px;
+}
+.setup_ok,span.ok,
+table.check_settings td.check_ok{
+	color:green;
+}
+span.invalid, p.final_message,
+table.check_settings td.check_invalid{
+	color:red;
+}
+p.final_message{
+	text-align:center;
+	padding:0 0 5px;
+}
+p.processing{
+	font-weight:bold;
+}
+table.db_server_settings td,
+table.site_settings td{
+	padding:5px 0;
+}
+table.site_settings td.site_parameter,
+table.db_server_settings td.db_parameter{
+	font-weight:bold;
+	font-size:14px;
+}
+table.db_server_settings td.db_input{
+	width:620px;
+}
+table.site_settings td.site_input input,
+table.site_settings td.site_input select,
+table.db_server_settings td.db_input input{
+	font-size:14px;
+	width:600px;
+	padding:10px;
+}
+table.site_settings td.site_input{
+	width:470px;
+}
+table.site_settings td.site_input input{
+	width:450px;
+}
+table.site_settings td.site_input select{
+	width:472px;
+}
+table.site_settings td.site_checkbox{
+	text-align:left;
+}
+table.site_settings td.site_checkbox input{
+	margin:0;
+}
+div.found_errors{
+	margin: 0 0 10px 0;
+}
+div.found_errors p.sql_error{
+	background:red;
+	border:1px solid red;
+	color:#FFFFFF;
+	padding:10px;
+	margin:0;
+	cursor:pointer;
+}
+div.found_errors pre{ 
+	overflow: scroll; 
+	height:250px;
+	border:1px solid red;
+	display:none;
+}
+div.kit-table {
+  /*display: flex;*/
+}
+div.table-row{
+  display: flex;
+  height : 2em;
+  gap : 25px;
+  flex-direction : row;
+  flex-wrap: wrap;
+  align-content: center;  
+}
+div.table-row:hover{
+  background-color: #d2d2d2;
+ /* font-weight: lighter;*/
+}  
+
+/*[class^="kit-cell"] {*/
+  div.kit-cell{  
+ /* background-color: skyblue;*/
+  /* Размещаем контейнеры по центру */
+  display: flex;  
+  justify-content : center;
+  align-items : center;
+  width:30%;
+  padding: 6px;
+}
+div.kit-2{
+  /*grid-column : span 2;*/
+}
+div.table-head{
+  font-size:14px;
+  font-weight: bolder;
+  text-align: center;
+}
+div.kit-3{
+  /*grid-column : span 3;*/
+  font-size:14px;
+  font-weight: bolder;
+  text-align: center;
+  width: 100%;
+
+}
