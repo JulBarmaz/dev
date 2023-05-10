@@ -1,0 +1,14 @@
+{  
+ "name":"gallery",
+ "type":"module",
+ "version":  "1.0.0",
+ "date":  "2023/04/04",
+ "author": "barmas dev@barmaz.ru",
+ "url":"https://barmaz.ru/dev/modules/gallery", 
+ "images":"",
+ "css":"",
+ "js":"",
+ "comment":"",
+ "demand":"[]",
+ "depend":"[]"
+}
