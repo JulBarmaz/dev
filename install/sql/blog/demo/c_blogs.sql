@@ -1,5 +1,0 @@
-
-INSERT INTO `#__blogs`(`b_id`,`b_name`,`b_alias`,`b_description`,`b_meta_title`,`b_meta_description`,`b_meta_keywords`,`b_thumb`,`b_title_thm`,`b_alt_thm`,`b_porder_by`,`b_porder_dir`,`b_corder_dir`,`b_layout`,`b_show_in_list`,`b_post_rating`,`b_comments_rating`,`b_premoderated`,`b_guieditor`,`b_hide_properties`,`b_hide_comments`,`b_enabled`,`b_deleted`) VALUES('1','Новости','novosti','<p>Лента новостей и мнений</p>','','','',NULL,'','','p_date','DESC','ASC','news','1','1','1','0','1','0','0','1','0')###qb_delimiter###
-INSERT INTO `#__blogs`(`b_id`,`b_name`,`b_alias`,`b_description`,`b_meta_title`,`b_meta_description`,`b_meta_keywords`,`b_thumb`,`b_title_thm`,`b_alt_thm`,`b_porder_by`,`b_porder_dir`,`b_corder_dir`,`b_layout`,`b_show_in_list`,`b_post_rating`,`b_comments_rating`,`b_premoderated`,`b_guieditor`,`b_hide_properties`,`b_hide_comments`,`b_enabled`,`b_deleted`) VALUES('4','Колонка редактора','kolonka-redaktora','','','','',NULL,'','','p_theme','ASC','ASC','','1','0','0','0','0','0','0','1','0')###qb_delimiter###
-
-

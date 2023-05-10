@@ -1,8 +1,0 @@
-
-INSERT INTO `#__galleries`(`g_id`,`g_alias`,`g_group_id`,`g_title`,`g_thumb`,`g_comment`,`g_ordering`,`g_show_in_list`,`g_hide_image_titles`,`g_published`,`g_deleted`,`g_alt_thm`,`g_title_thm`,`g_meta_title`,`g_meta_description`,`g_meta_keywords`,`g_layout`,`g_images_by_row`,`g_show_parent_descr`) VALUES('1','zhivotnie','1','Животные','87166d3ef263e03f3ee282018b702e9d1445959523.JPG','<p>Природа России и мира.</p>
-
-<p>Пейзажи, цветы, животные .</p>','0','1','0','1','0','','','','','','','0','1')###qb_delimiter###
-INSERT INTO `#__galleries`(`g_id`,`g_alias`,`g_group_id`,`g_title`,`g_thumb`,`g_comment`,`g_ordering`,`g_show_in_list`,`g_hide_image_titles`,`g_published`,`g_deleted`,`g_alt_thm`,`g_title_thm`,`g_meta_title`,`g_meta_description`,`g_meta_keywords`,`g_layout`,`g_images_by_row`,`g_show_parent_descr`) VALUES('2','ulitsi-nashey-strani-2012','1','Улицы нашей страны &quot;2012&quot;','4a2d258ef0939fbbed062c6e2c0a3c971445959320.JPG','<p>Все любят путешествия. Мы тоже. Вот что удалось сфотографирать :)</p>','0','1','0','1','0','','','','','','','0','0')###qb_delimiter###
-INSERT INTO `#__galleries`(`g_id`,`g_alias`,`g_group_id`,`g_title`,`g_thumb`,`g_comment`,`g_ordering`,`g_show_in_list`,`g_hide_image_titles`,`g_published`,`g_deleted`,`g_alt_thm`,`g_title_thm`,`g_meta_title`,`g_meta_description`,`g_meta_keywords`,`g_layout`,`g_images_by_row`,`g_show_parent_descr`) VALUES('3','wood','1','Изделия из дерева','037b8923130713fedd06bd45019832141445959547.JPG','<p>Сколько красивых вещей можно сделать из дерева !!!</p>','0','1','0','1','0','','','','','','','0','0')###qb_delimiter###
-
-

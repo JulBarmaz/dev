@@ -1,3 +1,0 @@
-INSERT INTO `#__addr_localities`(`l_id`,`l_parent_id`,`l_name`,`l_long`,`l_lat`,`l_show_on_map`,`l_ordering`,`l_enabled`,`l_deleted`) VALUES('180','168','микрорайон Лесной','0.0000000','0.0000000','0','0','1','0')###qb_delimiter###
-INSERT INTO `#__addr_localities`(`l_id`,`l_parent_id`,`l_name`,`l_long`,`l_lat`,`l_show_on_map`,`l_ordering`,`l_enabled`,`l_deleted`) VALUES('181','168','микрорайон Оргтруд','0.0000000','0.0000000','0','0','1','0')###qb_delimiter###
-INSERT INTO `#__addr_localities`(`l_id`,`l_parent_id`,`l_name`,`l_long`,`l_lat`,`l_show_on_map`,`l_ordering`,`l_enabled`,`l_deleted`) VALUES('182','63','Ковров город','0.0000000','0.0000000','0','0','1','0')###qb_delimiter###
