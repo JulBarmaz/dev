@@ -358,20 +358,7 @@ CREATE TABLE `#__plugins` (
   PRIMARY KEY (`p_id`),
   UNIQUE KEY `path_and_name` (`p_path`,`p_name`)
 ) ENGINE=MyISAM AUTO_INCREMENT=66 DEFAULT CHARSET=utf8###qb_delimiter###
-CREATE TABLE `#__plugins` (                                                          
-	`p_id` int(11) unsigned NOT NULL AUTO_INCREMENT,                                  
-	`p_path` varchar(100) NOT NULL,                                                   
-	`p_name` varchar(100) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,        
-	`p_params` text NOT NULL,                                                         
-	`p_ordering` int(3) NOT NULL DEFAULT '0',                                         
-	`p_enabled` int(1) NOT NULL DEFAULT '1',                                          
-	`p_deleted` int(1) NOT NULL DEFAULT '0',                                          
-  `p_version` varchar(10) DEFAULT NULL COMMENT 'версия плагина',       
-  `p_author` varchar(50) DEFAULT 'barmaz erp' COMMENT 'автор плагина',  
-  `p_date` date DEFAULT NULL COMMENT 'дата версии плагина ',       
-  PRIMARY KEY (`p_id`),                                                             
-  UNIQUE KEY `path_and_name` (`p_path`,`p_name`)                                    
-  ) ENGINE=MyISAM AUTO_INCREMENT=66 DEFAULT CHARSET=utf8###qb_delimiter###
+
 
 DROP TABLE IF EXISTS `#__redirect_links`###qb_delimiter###
 CREATE TABLE `#__redirect_links` (
