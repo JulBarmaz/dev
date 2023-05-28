@@ -222,13 +222,13 @@ class PageRenderer extends HTMLRenderer {
 		foreach ($this->_scripts as $strSrc => $params) {
 			if($params["put2header"]){
 				if (Router::isAbsoluteLink($strSrc)) {
-					$headHtml .= "<script ".($params['type']=="none" ? "" : " type=\"".$params['type']."\"")." src=\"".$strSrc."\"".($params['defer'] ? " defer" : "").($params['async'] ? " async" : "")."></script>\n";
+					$headHtml .= "<script ".($params['type']=="none" ? "" : " type=\"".$params['type']."\"")." src=\"".$this->appendBuildVersion($strSrc)."\"".($params['defer'] ? " defer" : "").($params['async'] ? " async" : "")."></script>\n";
 				} elseif ($strSrc[0] == "/") {
 					$headHtml .= "<script ".($params['type']=="none" ? "" : " type=\"".$params['type']."\"")." src=\"".$this->appendBuildVersion($strSrc)."\"".($params['defer'] ? " defer" : "").($params['async'] ? " async" : "")."></script>\n";
 				} else {
 					// template file check for override
 					$source_path = PATH_TEMPLATES.$this->_templateName.DS."js".DS.Util::dsPath($strSrc);
-					$source_link = LINK_TEMPLATES."/".$this->_templateName."/js/".$strSrc;
+					$source_link = LINK_TEMPLATES."/".$this->_templateName."/js/".$this->appendBuildVersion($strSrc);
 					if (!file_exists($source_path)) {
 						$source_path = PATH_JS.Util::dsPath($strSrc);
 						$source_link = LINK_JS."/".$strSrc;
